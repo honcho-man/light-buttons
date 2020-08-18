@@ -38,4 +38,7 @@
     .col-s-12 {
         width: 100%;
     }
+    .light-buttons {
+        padding: 0;
+    }
 }

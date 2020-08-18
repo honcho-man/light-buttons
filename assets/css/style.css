@@ -4,7 +4,7 @@ body {
     padding: 0;
     color: white;
     font-family: 'Roboto', sans-serif;
-    background-color: white;
+    background-color: black;
     height: 100%;
 }
 
@@ -33,19 +33,97 @@ a {
     text-align: right;
 }
 
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px
+button {
+    color: rgba(255, 255, 255, 0.342);
+    font-size: 40px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 25px;
+    border: none;
+    background: rgb(37, 37, 37);
+    cursor: pointer;
+    outline-color: transparent;
 }
 
-.col {
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    max-width: 100%
+button:checked {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+button:hover {
+    color: white;
+    box-shadow: 0 0 10px rgba(250, 249, 249, 0.6);
+    -moz-box-shadow: 0 0 10px rgba(250, 249, 249, 0.6);
+    ;
+    -webkit-box-shadow: 0 0 10px rgba(250, 249, 249, 0.6);
+    ;
+    -o-box-shadow: 0 0 10px rgba(250, 249, 249, 0.6);
+    ;
+}
+
+.whatsapp:focus {
+    color: rgb(74, 201, 89) !important;
+    box-shadow: 0 0 35px rgba(74, 201, 89, 0.753);
+    -moz-box-shadow: 0 0 35px rgba(74, 201, 89, 0.753);
+    ;
+    -webkit-box-shadow: 0 0 35px rgba(74, 201, 89, 0.753);
+    ;
+    -o-box-shadow: 0 0 35px rgba(74, 201, 89, 0.753);
+    ;
+}
+
+.ig:focus {
+    color: #fb3958 !important;
+    box-shadow: 0 0 35px rgba(251, 57, 89, 0.623);
+    -moz-box-shadow: 0 0 35px rgba(251, 57, 89, 0.623);
+    ;
+    -webkit-box-shadow: 0 0 35px rgba(251, 57, 89, 0.623);
+    ;
+    -o-box-shadow: 0 0 35px rgba(251, 57, 89, 0.623);
+    ;
+}
+
+.twitt:focus {
+    color: rgb(29, 161, 242) !important;
+    box-shadow: 0 0 35px rgba(29, 160, 242, 0.699);
+    -moz-box-shadow: 0 0 35px rgba(29, 160, 242, 0.699);
+    ;
+    -webkit-box-shadow: 0 0 35px rgba(29, 160, 242, 0.699);
+    ;
+    -o-box-shadow: 0 0 35px rgba(29, 160, 242, 0.699);
+    ;
+}
+
+.youtube:focus {
+    color: rgb(255, 0, 0) !important;
+    box-shadow: 0 0 35px rgba(255, 0, 0, 0.705);
+    -moz-box-shadow: 0 0 35px rgba(255, 0, 0, 0.705);
+    ;
+    -webkit-box-shadow: 0 0 35px rgba(255, 0, 0, 0.705);
+    ;
+    -o-box-shadow: 0 0 35px rgba(255, 0, 0, 0.705);
+    ;
+}
+
+.fb:focus {
+    color: rgb(66, 103, 178) !important;
+    box-shadow: 0 0 35px rgba(66, 103, 178, 0.685);
+    -moz-box-shadow: 0 0 35px rgba(66, 103, 178, 0.685);
+    ;
+    -webkit-box-shadow: 0 0 35px rgba(66, 103, 178, 0.685);
+    ;
+    -o-box-shadow: 0 0 35px rgba(66, 103, 178, 0.685);
+    ;
+}
+
+.goo:focus {
+    color: #f4c20d !important;
+    box-shadow: 0 0 35px rgba(244, 194, 13, 0.678);
+    -moz-box-shadow: 0 0 35px rgba(244, 194, 13, 0.678);
+    ;
+    -webkit-box-shadow: 0 0 35px rgba(244, 194, 13, 0.678);
+    ;
+    -o-box-shadow: 0 0 35px rgba(244, 194, 13, 0.678);
+    ;
 }
