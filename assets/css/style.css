@@ -40,7 +40,7 @@ button {
     margin: 10px;
     border-radius: 25px;
     border: none;
-    background: rgb(37, 37, 37);
+    background: transparent;
     cursor: pointer;
     outline-color: transparent;
 }
@@ -53,13 +53,6 @@ button:checked {
 
 button:hover {
     color: white;
-    box-shadow: 0 0 10px rgba(250, 249, 249, 0.6);
-    -moz-box-shadow: 0 0 10px rgba(250, 249, 249, 0.6);
-    ;
-    -webkit-box-shadow: 0 0 10px rgba(250, 249, 249, 0.6);
-    ;
-    -o-box-shadow: 0 0 10px rgba(250, 249, 249, 0.6);
-    ;
 }
 
 .whatsapp:focus {
