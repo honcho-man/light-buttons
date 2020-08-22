@@ -55,7 +55,7 @@ button:hover {
     color: white;
 }
 
-.whatsapp:focus {
+#whatsapp:focus {
     color: rgb(74, 201, 89) !important;
     box-shadow: 0 0 35px rgba(74, 201, 89, 0.753);
     -moz-box-shadow: 0 0 35px rgba(74, 201, 89, 0.753);
@@ -66,7 +66,7 @@ button:hover {
     ;
 }
 
-.ig:focus {
+#ig:focus {
     color: #fb3958 !important;
     box-shadow: 0 0 35px rgba(251, 57, 89, 0.623);
     -moz-box-shadow: 0 0 35px rgba(251, 57, 89, 0.623);
@@ -77,7 +77,7 @@ button:hover {
     ;
 }
 
-.twitt:focus {
+#twitt:focus {
     color: rgb(29, 161, 242) !important;
     box-shadow: 0 0 35px rgba(29, 160, 242, 0.699);
     -moz-box-shadow: 0 0 35px rgba(29, 160, 242, 0.699);
@@ -88,7 +88,7 @@ button:hover {
     ;
 }
 
-.youtube:focus {
+#youtube:focus {
     color: rgb(255, 0, 0) !important;
     box-shadow: 0 0 35px rgba(255, 0, 0, 0.705);
     -moz-box-shadow: 0 0 35px rgba(255, 0, 0, 0.705);
@@ -99,7 +99,7 @@ button:hover {
     ;
 }
 
-.fb:focus {
+#fb:focus {
     color: rgb(66, 103, 178) !important;
     box-shadow: 0 0 35px rgba(66, 103, 178, 0.685);
     -moz-box-shadow: 0 0 35px rgba(66, 103, 178, 0.685);
@@ -110,7 +110,7 @@ button:hover {
     ;
 }
 
-.goo:focus {
+#goo:focus {
     color: #f4c20d !important;
     box-shadow: 0 0 35px rgba(244, 194, 13, 0.678);
     -moz-box-shadow: 0 0 35px rgba(244, 194, 13, 0.678);
